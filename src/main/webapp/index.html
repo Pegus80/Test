@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/startpage" method="get">
+
+    <!--    <label>User name:</label>-->
+    <!--    User name:<input type="text" required name="startHTML"/>-->
+    <!--    <button type="submit">Start</button>-->
+
+    <table>
+        <tr>
+            <td>Vārds</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+
+
+        <tr>
+            <td>Uzvārds</td>
+            <td><input type="text" name="secondName"></td>
+        </tr>
+
+        <tr>
+            <td>Profesija</td>
+            <td>
+                <select name="job">
+                    <option value="Developer">Istrādātajs</option>
+                    <option selected value="House">Apkopējs</option>
+                    <option value="Head">Vadītājs</option>
+                </select>
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td>Profesija</td>
+            <td>
+                <select name="job" multiple size="4">
+                    <option value="Developer">Istrādātajs</option>
+                    <option selected value="House">Apkopējs</option>
+                    <option value="Head">Vadītājs</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Dzimums</td>
+            <td>
+                <input type="radio" name="gender" value="V">Vīrietis</input><br>
+                <input type="radio" name="gender" value="S">Sieviete</input>
+
+            </td>
+
+
+        </tr>
+
+        <tr>
+            <td>Vecāks par 18 gadiem?</td>
+            <td>
+                <input type="checkbox" name="age18" value="Jā">Jā</input><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="right" clospan="2"><input type="submit" value="Nosūtīt"></td>
+        </tr>
+
+
+    </table>
+
+
+</form>
+
+
+</body>
+</html>
